@@ -1,0 +1,16 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: flag
+
+flag: GoSpecific
+flagType: string
+description: 
+labels:
+
+availableValues:
+  - White
+  - Blue
+  - Green
+  - Yellow
+
+isPermanent: false
